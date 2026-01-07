@@ -6,6 +6,34 @@ To analyze YouTube trending video data and identify factors affecting audience e
 
 ## 📊 Dataset
 YouTube Trending Videos dataset (Kaggle)
+Link- (https://www.kaggle.com/datasets/datasnaek/youtube-new?select=USvideos.csv)
+
+The dataset used in this project is the **YouTube Trending Videos Dataset**, 
+which contains daily records of trending YouTube videos from multiple regions.
+
+Each row represents a video that appeared on YouTube’s trending list on a 
+particular day.
+
+### Description of Columns
+- `video_id` : Unique identifier for each video  
+- `trending_date` : Date when the video trended  
+- `title` : Title of the video  
+- `channel_title` : Name of the YouTube channel  
+- `category_id` : Numeric ID representing the video category  
+- `publish_time` : Timestamp when the video was published  
+- `views` : Number of views  
+- `likes` : Number of likes  
+- `dislikes` : Number of dislikes  
+- `comment_count` : Number of comments  
+- `comments_disabled` : Whether comments are disabled  
+- `ratings_disabled` : Whether likes/dislikes are disabled  
+- `video_error_or_removed` : Indicates if the video was removed or unavailable  
+- `description` : Video description (may contain missing values)
+
+### Additional Files
+The category names were mapped using a separate JSON file containing 
+category IDs and their corresponding names.
+Link - (https://www.kaggle.com/datasets/datasnaek/youtube-new?select=US_category_id.json)
 
 ## 🔍 Key Insights
 - Music category videos show the highest like-to-view engagement ratio.
