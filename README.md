@@ -4,6 +4,13 @@
 ## 📌 Objective
 To analyze YouTube trending video data and identify factors affecting audience engagement.
 
+### How to Use This Project
+1. Download the dataset from Kaggle using the link above
+2. Extract `USvideos.csv`
+3. Place it in the same folder as the notebook
+4. Run the notebook
+
+
 ## 📊 Dataset
 YouTube Trending Videos dataset (Kaggle)
 Link- (https://www.kaggle.com/datasets/datasnaek/youtube-new?select=USvideos.csv)
